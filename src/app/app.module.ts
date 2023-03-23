@@ -5,12 +5,31 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { IndexComponent } from './index/index.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { LoginComponent } from './login/login.component';
+import { ErrorComponent } from './error/error.component';
+import { RegistroComponent } from './registro/registro.component';
+import { BannerComponent } from './banner/banner.component';
+import { PresentacionComponent } from './presentacion/presentacion.component';
+import { ExperienciaComponent } from './experiencia/experiencia.component';
+import { EducacionComponent } from './educacion/educacion.component';
+import { HabilidadesComponent } from './habilidades/habilidades.component';
+import { FooterComponent } from './footer/footer.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     IndexComponent,
-    NavbarComponent
+    NavbarComponent,
+    LoginComponent,
+    ErrorComponent,
+    RegistroComponent,
+    BannerComponent,
+    PresentacionComponent,
+    ExperienciaComponent,
+    EducacionComponent,
+    HabilidadesComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
