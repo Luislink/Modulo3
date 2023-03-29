@@ -14,6 +14,8 @@ import { ExperienciaComponent } from './experiencia/experiencia.component';
 import { EducacionComponent } from './educacion/educacion.component';
 import { HabilidadesComponent } from './habilidades/habilidades.component';
 import { FooterComponent } from './footer/footer.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { BarraLateralComponent } from './barra-lateral/barra-lateral.component';
 
 
 @NgModule({
@@ -29,7 +31,9 @@ import { FooterComponent } from './footer/footer.component';
     ExperienciaComponent,
     EducacionComponent,
     HabilidadesComponent,
-    FooterComponent
+    FooterComponent,
+    DashboardComponent,
+    BarraLateralComponent
   ],
   imports: [
     BrowserModule,
